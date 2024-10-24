@@ -32,30 +32,30 @@
             this.pnTop = new System.Windows.Forms.Panel();
             this.lbKHO = new System.Windows.Forms.Label();
             this.pnBET = new System.Windows.Forms.Panel();
-            this.vbButton5 = new CustomButton.VBButton();
-            this.vbButton6 = new CustomButton.VBButton();
-            this.vbButton7 = new CustomButton.VBButton();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.vbButton4 = new CustomButton.VBButton();
-            this.vbButton1 = new CustomButton.VBButton();
-            this.vbButton2 = new CustomButton.VBButton();
-            this.vbButton3 = new CustomButton.VBButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnLuong = new CustomButton.VBButton();
-            this.btnXoa = new CustomButton.VBButton();
-            this.BtnAdd = new CustomButton.VBButton();
             this.txtTSP = new System.Windows.Forms.TextBox();
             this.txtMSP = new System.Windows.Forms.TextBox();
             this.lbTSP = new System.Windows.Forms.Label();
             this.lbMSP = new System.Windows.Forms.Label();
             this.vbButton8 = new CustomButton.VBButton();
+            this.vbButton5 = new CustomButton.VBButton();
+            this.vbButton6 = new CustomButton.VBButton();
+            this.vbButton7 = new CustomButton.VBButton();
+            this.vbButton4 = new CustomButton.VBButton();
+            this.vbButton1 = new CustomButton.VBButton();
+            this.vbButton2 = new CustomButton.VBButton();
+            this.vbButton3 = new CustomButton.VBButton();
+            this.btnLuong = new CustomButton.VBButton();
+            this.btnXoa = new CustomButton.VBButton();
+            this.BtnAdd = new CustomButton.VBButton();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVKHO)).BeginInit();
             this.pnTop.SuspendLayout();
             this.pnBET.SuspendLayout();
@@ -127,6 +127,152 @@
             this.pnBET.Size = new System.Drawing.Size(1267, 737);
             this.pnBET.TabIndex = 12;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(714, 242);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(247, 22);
+            this.textBox2.TabIndex = 28;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(547, 242);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(130, 27);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Loại hàng : ";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(714, 179);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(247, 22);
+            this.textBox3.TabIndex = 26;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(714, 117);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(247, 22);
+            this.textBox4.TabIndex = 25;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(566, 174);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(111, 27);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Đơn giá : ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(535, 117);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(142, 27);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Đơn vị tính : ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(220, 242);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(247, 22);
+            this.textBox1.TabIndex = 18;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(41, 242);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 27);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Số lượng : ";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btnLuong);
+            this.panel3.Controls.Add(this.btnXoa);
+            this.panel3.Controls.Add(this.BtnAdd);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 657);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1263, 76);
+            this.panel3.TabIndex = 16;
+            // 
+            // txtTSP
+            // 
+            this.txtTSP.Location = new System.Drawing.Point(220, 179);
+            this.txtTSP.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTSP.Name = "txtTSP";
+            this.txtTSP.Size = new System.Drawing.Size(247, 22);
+            this.txtTSP.TabIndex = 8;
+            // 
+            // txtMSP
+            // 
+            this.txtMSP.Location = new System.Drawing.Point(220, 117);
+            this.txtMSP.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMSP.Name = "txtMSP";
+            this.txtMSP.Size = new System.Drawing.Size(247, 22);
+            this.txtMSP.TabIndex = 7;
+            // 
+            // lbTSP
+            // 
+            this.lbTSP.AutoSize = true;
+            this.lbTSP.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTSP.Location = new System.Drawing.Point(41, 179);
+            this.lbTSP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTSP.Name = "lbTSP";
+            this.lbTSP.Size = new System.Drawing.Size(160, 27);
+            this.lbTSP.TabIndex = 6;
+            this.lbTSP.Text = "Tên sản phẩm :";
+            // 
+            // lbMSP
+            // 
+            this.lbMSP.AutoSize = true;
+            this.lbMSP.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMSP.Location = new System.Drawing.Point(41, 117);
+            this.lbMSP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbMSP.Name = "lbMSP";
+            this.lbMSP.Size = new System.Drawing.Size(156, 27);
+            this.lbMSP.TabIndex = 5;
+            this.lbMSP.Text = "Mã sản phẩm :";
+            // 
+            // vbButton8
+            // 
+            this.vbButton8.BackColor = System.Drawing.Color.Firebrick;
+            this.vbButton8.BackgroundColor = System.Drawing.Color.Firebrick;
+            this.vbButton8.BorderColor = System.Drawing.Color.Crimson;
+            this.vbButton8.BorderRadius = 10;
+            this.vbButton8.BorderSize = 0;
+            this.vbButton8.FlatAppearance.BorderSize = 0;
+            this.vbButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton8.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vbButton8.ForeColor = System.Drawing.Color.White;
+            this.vbButton8.Location = new System.Drawing.Point(845, 311);
+            this.vbButton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vbButton8.Name = "vbButton8";
+            this.vbButton8.Size = new System.Drawing.Size(189, 59);
+            this.vbButton8.TabIndex = 32;
+            this.vbButton8.Text = "Xuất";
+            this.vbButton8.TextColor = System.Drawing.Color.White;
+            this.vbButton8.UseVisualStyleBackColor = false;
+            // 
             // vbButton5
             // 
             this.vbButton5.BackColor = System.Drawing.Color.Firebrick;
@@ -187,63 +333,6 @@
             this.vbButton7.TextColor = System.Drawing.Color.White;
             this.vbButton7.UseVisualStyleBackColor = false;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(714, 242);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 22);
-            this.textBox2.TabIndex = 28;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(547, 242);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 27);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Loại hàng : ";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(714, 179);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(247, 22);
-            this.textBox3.TabIndex = 26;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(714, 117);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(247, 22);
-            this.textBox4.TabIndex = 25;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(566, 174);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 27);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Đơn giá : ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(535, 117);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 27);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Đơn vị tính : ";
-            // 
             // vbButton4
             // 
             this.vbButton4.BackColor = System.Drawing.Color.Firebrick;
@@ -283,6 +372,7 @@
             this.vbButton1.Text = "Loại hàng hóa";
             this.vbButton1.TextColor = System.Drawing.Color.White;
             this.vbButton1.UseVisualStyleBackColor = false;
+            this.vbButton1.Click += new System.EventHandler(this.vbButton1_Click);
             // 
             // vbButton2
             // 
@@ -323,37 +413,6 @@
             this.vbButton3.Text = "Nhập hàng";
             this.vbButton3.TextColor = System.Drawing.Color.White;
             this.vbButton3.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(220, 242);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(247, 22);
-            this.textBox1.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(41, 242);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 27);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Số lượng : ";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.btnLuong);
-            this.panel3.Controls.Add(this.btnXoa);
-            this.panel3.Controls.Add(this.BtnAdd);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 657);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1263, 76);
-            this.panel3.TabIndex = 16;
             // 
             // btnLuong
             // 
@@ -417,64 +476,6 @@
             this.BtnAdd.Text = "Thêm";
             this.BtnAdd.TextColor = System.Drawing.Color.White;
             this.BtnAdd.UseVisualStyleBackColor = false;
-            // 
-            // txtTSP
-            // 
-            this.txtTSP.Location = new System.Drawing.Point(220, 179);
-            this.txtTSP.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTSP.Name = "txtTSP";
-            this.txtTSP.Size = new System.Drawing.Size(247, 22);
-            this.txtTSP.TabIndex = 8;
-            // 
-            // txtMSP
-            // 
-            this.txtMSP.Location = new System.Drawing.Point(220, 117);
-            this.txtMSP.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMSP.Name = "txtMSP";
-            this.txtMSP.Size = new System.Drawing.Size(247, 22);
-            this.txtMSP.TabIndex = 7;
-            // 
-            // lbTSP
-            // 
-            this.lbTSP.AutoSize = true;
-            this.lbTSP.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTSP.Location = new System.Drawing.Point(41, 179);
-            this.lbTSP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbTSP.Name = "lbTSP";
-            this.lbTSP.Size = new System.Drawing.Size(160, 27);
-            this.lbTSP.TabIndex = 6;
-            this.lbTSP.Text = "Tên sản phẩm :";
-            // 
-            // lbMSP
-            // 
-            this.lbMSP.AutoSize = true;
-            this.lbMSP.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMSP.Location = new System.Drawing.Point(41, 117);
-            this.lbMSP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbMSP.Name = "lbMSP";
-            this.lbMSP.Size = new System.Drawing.Size(156, 27);
-            this.lbMSP.TabIndex = 5;
-            this.lbMSP.Text = "Mã sản phẩm :";
-            // 
-            // vbButton8
-            // 
-            this.vbButton8.BackColor = System.Drawing.Color.Firebrick;
-            this.vbButton8.BackgroundColor = System.Drawing.Color.Firebrick;
-            this.vbButton8.BorderColor = System.Drawing.Color.Crimson;
-            this.vbButton8.BorderRadius = 10;
-            this.vbButton8.BorderSize = 0;
-            this.vbButton8.FlatAppearance.BorderSize = 0;
-            this.vbButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton8.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton8.ForeColor = System.Drawing.Color.White;
-            this.vbButton8.Location = new System.Drawing.Point(845, 311);
-            this.vbButton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.vbButton8.Name = "vbButton8";
-            this.vbButton8.Size = new System.Drawing.Size(189, 59);
-            this.vbButton8.TabIndex = 32;
-            this.vbButton8.Text = "Xuất";
-            this.vbButton8.TextColor = System.Drawing.Color.White;
-            this.vbButton8.UseVisualStyleBackColor = false;
             // 
             // Kho
             // 

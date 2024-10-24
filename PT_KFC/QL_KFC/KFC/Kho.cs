@@ -17,5 +17,10 @@ namespace KFC
             InitializeComponent();
         }
 
+        private void vbButton1_Click(object sender, EventArgs e)
+        {
+            LoaiHang lh = new LoaiHang();
+            lh.ShowDialog();
+        }
     }
 }
