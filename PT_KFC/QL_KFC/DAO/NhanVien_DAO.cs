@@ -119,7 +119,6 @@
                 {
                     // Sử dụng byte[] từ DTO
                     existingNhanVien.AnhNhanVien = nhanVien.AnhNhanVien != null ? new Binary(nhanVien.AnhNhanVien) : null; // Gán giá trị cho thuộc tính Binary
-
                     existingNhanVien.TenNhanVien = nhanVien.TenNhanVien;
                     existingNhanVien.GioiTinh = nhanVien.GioiTinh;
                     existingNhanVien.NgaySinh = nhanVien.NgaySinh;
